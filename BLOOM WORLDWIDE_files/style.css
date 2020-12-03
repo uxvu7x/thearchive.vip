@@ -135,6 +135,26 @@ center {
 	margin-top: 100px;
 }
 
+h1:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+h1:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+h1:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+h1:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
 @keyframes flicker {
   0% {
     opacity: 0.27861;
