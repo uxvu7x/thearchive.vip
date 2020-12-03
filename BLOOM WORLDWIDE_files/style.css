@@ -1,6 +1,7 @@
-p { 
+p {
 	margin: 5px 0;
 	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 24px;
 	text-shadow: 1px 1px 5px #fff, 1px 1px 10px #ccc;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -8,7 +9,7 @@ p {
 	-ms-user-select: none;
 	user-select: none;
 	color: white
-	
+
 }
 
 video {
@@ -26,11 +27,11 @@ z-index:-1;
      display:none;
 }
 
-.button {     
+.button {
 	background-color: Transparent;
     background-repeat:no-repeat;
     cursor:pointer;
-    overflow: hidden;        
+    overflow: hidden;
 }
 
 .akimage {
@@ -58,7 +59,7 @@ h1 {
 
 }
 
-h2 { 
+h2 {
 	margin: 20px 0;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -67,14 +68,14 @@ h2 {
 	user-select: none;
 }
 
-h3 { 
+h3 {
 	margin: 30px 0;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-} 
+}
 
 h4 {
 	margin: 585px 0px;
@@ -112,10 +113,10 @@ div {
     left: 50%;
     margin-top: -250px;
     margin-left: -400px;
-    
+
 }
 
-body {	
+body {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -350,11 +351,11 @@ crt {
 	margin-top: 650px;
 }
 
-.button {     
+.button {
 	background-color: Transparent;
     background-repeat:no-repeat;
     cursor:pointer;
-    overflow: hidden;        
+    overflow: hidden;
 }
 
 .btn {
