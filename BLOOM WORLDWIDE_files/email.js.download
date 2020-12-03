@@ -1,0 +1,10 @@
+setInterval(function() {
+  var i = Math.random().toString(36).replace('0.', '').substring(7).substr(0,8);
+  
+  while (i.length!=8){
+        i=Math.random().toString(36).substring(7).substr(0,8);
+    }
+	
+  document.getElementById("email").innerHTML = i;
+  document.getElementById("email").style.color = "white";
+}, 50);

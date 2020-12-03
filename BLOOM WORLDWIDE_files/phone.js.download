@@ -1,0 +1,5 @@
+setInterval(function() {
+  var i = Math.floor(Math.random() * (899)) + 100;
+  document.getElementById("phone").innerHTML = i;
+  document.getElementById("phone").style.color = "white";
+}, 50);

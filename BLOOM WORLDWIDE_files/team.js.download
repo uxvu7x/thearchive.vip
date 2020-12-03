@@ -1,0 +1,11 @@
+var i = 0;
+var txt = 'xra, oct, vel, aleks, kris, casper, qwebl, terq, sikanto, carson, unnamed, dio, ben, wicked, kinsin, mike, griffin, crowbarz, civies, peter'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("team").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
